@@ -13,7 +13,6 @@ end
 def assign_rooms(attendees)
   counter=0
   attendees.collect do |attendee| 
-    binding.pry
     "Hello, #{attendee}! You'll be assigned to room #{counter+=1}!"
   end
 end
